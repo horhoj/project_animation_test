@@ -1,0 +1,92 @@
+.App {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-left: 1px solid #e2e5ec;
+  border-right: 1px solid #e2e5ec;
+}
+
+.historicalDatesTitlePosition {
+  margin-top: 170px;
+
+  @media (max-width: 1250px) {
+    margin-top: 100px;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 56px;
+  }
+}
+
+.circleOfHistoryPosition {
+  margin: -90px auto 0 auto;
+
+  @media (max-width: 1250px) {
+    margin: -30px auto 0 auto;
+  }
+}
+
+.veryBigYearsWrapper {
+  margin: -400px auto 0 auto;
+  display: flex;
+  gap: 80px;
+
+  @media (max-width: 1250px) {
+    margin: -270px auto 0 auto;
+    gap: 175px;
+  }
+
+  @media (max-width: 700px) {
+    margin: 56px auto 0 auto;
+    gap: 30px;
+  }
+}
+
+.navigatorPosition {
+  margin-top: 137px;
+  margin-left: 80px;
+
+  @media (max-width: 1250px) {
+    margin-top: 137px;
+    margin-left: 30px;
+  }
+}
+
+
+
+.sliderBlockPosition {
+  margin-top: 56px;
+  margin-left: -56px;
+  margin-right: 0;
+  width: calc(100% + 56px);
+
+  @media (max-width: 700px) {
+    margin-top: auto;
+    padding-bottom: 30px;
+  }
+}
+
+.verticalLine {
+  border-left: 1px solid #e2e5ec;
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  left: 50%;
+}
+
+.horizontalLine {
+  border-top: 1px solid #e2e5ec;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  top: 492px;
+  z-index: -1;
+
+  @media (max-width: 1250px) {
+    top: 348px;
+  }
+}

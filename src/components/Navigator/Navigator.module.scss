@@ -1,0 +1,44 @@
+.Navigator {}
+
+.navBtnWrapper {
+  display: flex;
+  gap: 20px;
+
+  @media (max-width: 700px) {
+    width: 25px;
+    height: 25px;
+    gap: 8px;
+  }
+}
+
+.display {
+  color: #42567A;
+}
+
+.navBtn {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  transition: background-color 200ms;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &:disabled {
+    opacity: 50%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  &:hover {
+    background-color: #fff;
+  }
+
+  @media (max-width: 700px) {
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,43 @@
+.HistoricalDatesTitle {
+  display: flex;
+  gap: 78px;
+  align-items: center;
+  width: fit-content;
+
+  @media (max-width: 1250px) {
+    gap: 18px;
+  }
+
+
+}
+
+.leftBorder {
+  height: 128px;
+  width: 5px;
+  background: linear-gradient(180deg, #3877EE -5%, #EF5DA8 85%);
+
+  @media (max-width: 1250px) {
+    height: 70px;
+  }
+
+  @media (max-width: 700px) {
+    display: none;
+
+  }
+
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 700;
+  color: #42567A;
+
+  @media (max-width: 1250px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
